@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-neo-fullnode",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrachid/nodejs-neo-fullnode.git"
+  },
+  "author": "Marcos Rachid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosrachid/nodejs-neo-fullnode/issues"
+  },
+  "homepage": "https://github.com/marcosrachid/nodejs-neo-fullnode#readme",
+  "dependencies": {
+    "@cityofzion/neo-js": "git://github.com/CityOfZion/neo-js.git#develop",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "tingodb": "^0.6.1"
+  }
+}
