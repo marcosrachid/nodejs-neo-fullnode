@@ -45,7 +45,7 @@ const blockCollectionName = 'blocks'
       refreshUserAgentIntervalMs: 5 * 60 * 1000,
       minActiveNodesRequired: 2,
       pendingRequestsThreshold: 5,
-      loggerOptions: { level: 'warn' },
+      loggerOptions: { level: 'info' },
     },
     apiOptions: {
       loggerOptions: { level: 'info' },
