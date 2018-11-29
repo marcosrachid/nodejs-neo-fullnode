@@ -35,7 +35,7 @@ const blockCollectionName = 'blocks'
       collectionNames: {
         blocks: blockCollectionName,
       },
-      loggerOptions: { level: 'info' },
+      loggerOptions: { level: 'warn' },
     },
     meshOptions: {
       startBenchmarkOnInit: true,
@@ -45,10 +45,10 @@ const blockCollectionName = 'blocks'
       refreshUserAgentIntervalMs: 5 * 60 * 1000,
       minActiveNodesRequired: 2,
       pendingRequestsThreshold: 5,
-      loggerOptions: { level: 'info' },
+      loggerOptions: { level: 'warn' },
     },
     apiOptions: {
-      loggerOptions: { level: 'info' },
+      loggerOptions: { level: 'warn' },
     },
     syncerOptions: {
       minHeight: 1,
@@ -70,9 +70,9 @@ const blockCollectionName = 'blocks'
       missingEnqueueStoreBlockPriority: 1,
       enqueuePruneBlockPriority: 5,
       maxPruneChunkSize: 1000,
-      loggerOptions: { level: 'info' }
+      loggerOptions: { level: 'warn' }
     },
-    loggerOptions: { level: 'info' },
+    loggerOptions: { level: 'warn' },
   })
 
   /**
